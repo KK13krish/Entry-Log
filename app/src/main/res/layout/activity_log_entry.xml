@@ -1,0 +1,71 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
+    android:gravity="center"
+    android:background="#798F92"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/uname"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admission Number"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Admissionno"
+        android:inputType="number"
+        android:id="@+id/admsn"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Number"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Systemno"
+        android:inputType="number"
+        android:id="@+id/systno"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Department"
+        android:id="@+id/dept"
+        android:textColor="#000000"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addbtn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="ADD"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="LOGOUT"
+        android:textStyle="bold"
+        android:id="@+id/logbtn"/>
+</LinearLayout>
